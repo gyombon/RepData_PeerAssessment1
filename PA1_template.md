@@ -3,8 +3,7 @@ title: "Activity Monitoring Data"
 keep_md: yes
 date: "21 March 2018"
 output:
-  word_document: default
-  html_document: default
+    html_document: default
 ---
 
 ## Loading and preprocessing the data
@@ -114,4 +113,3 @@ names(databyweekday) <- c("interval", "day", "steps")
 # Make a panel plot containing a time series plot of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis)
 ggplot(databyweekday, aes(interval, steps)) + geom_line() + facet_wrap(~ day, nrow = 2) + xlab("Interval") + ylab("Number of steps")
 ```
-
