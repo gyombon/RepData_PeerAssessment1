@@ -2,12 +2,14 @@
 title: "Activity Monitoring Data"
 date: "21 March 2018"
 output: html_document
+keep_md: true
 ---
 
 ## Loading and preprocessing the data
 
 ```{r, echo = TRUE}
 # Load the data assuming it is saved under its original name in the wording directory
+setwd("\\\\OAKSBS11/RedirectedFolders/guillaumebonnissent/My Documents")
 data <- read.csv("activity.csv", sep = ",", header = TRUE)
 
 # Convert date variable to date format
