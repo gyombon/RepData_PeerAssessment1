@@ -3,7 +3,7 @@ title: "Activity Monitoring Data"
 keep_md: yes
 date: "21 March 2018"
 output:
-  word_document: default
+  md_document: default
   html_document: default
 ---
 
